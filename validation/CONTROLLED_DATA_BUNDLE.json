@@ -1,0 +1,8 @@
+{
+  "local_path": "/home/liu/ring-first-hero-core/.local_data/G01_004_ring_first_hero_demo_v1.tar.gz",
+  "bytes": 6608427,
+  "sha256": "fd3910354b762121c9119bd53c33172258a87337abd223100c9743dd05aa42ba",
+  "contains": "One real target +3 original supports, labels, fixed cameras, Ring, reference RGB map, native historical depth/mesh/evidence",
+  "uploaded": false,
+  "access": "Maintainer-authorized private transfer; no endpoint invented"
+}

@@ -1,0 +1,12 @@
+{
+  "staged_files": 120,
+  "staged_bytes": 9745197,
+  "prohibited_assets_found": [],
+  "secret_patterns_found": [],
+  "raw_controlled_bundle_staged": false,
+  "weights_staged": false,
+  "official_full_source_staged": false,
+  "private_visibility_confirmed": true,
+  "original_repository_written": false,
+  "viewer_runtime_licensed": "MIT; four browser runtime components with original licence"
+}

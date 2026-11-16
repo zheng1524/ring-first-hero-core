@@ -1,0 +1,18 @@
+{
+  "vertices": 22733,
+  "triangles": 43746,
+  "native_pixel_IDs_unique": true,
+  "max_pixel_reprojection_error": 1.7053025658242404e-13,
+  "max_triangle_native_depth_jump_mm": 0.7498397827148438,
+  "all_vertices_finite": true,
+  "boundary_edges": 1106,
+  "nonmanifold_edges": 0,
+  "degenerate_faces": 0,
+  "unreferenced_vertices": 300,
+  "area_sum_mm2": 164.5691310508455,
+  "watertight": false,
+  "faces_with_CAD_inside_samples": 160,
+  "minimum_CAD_signed_distance_mm": -0.4615251421928406,
+  "geometry_repair_performed": false,
+  "absolute_3D_accuracy": "NOT_EVALUABLE"
+}

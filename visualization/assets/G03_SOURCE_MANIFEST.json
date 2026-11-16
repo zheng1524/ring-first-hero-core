@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "G03_v004_raw00220",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "hero_fit/G03_v004_raw00220/RAW_NATIVE_MESH.npz",
+    "sha256": "423c864dcff9a3765f96133bc1d3f41ff7c344ffff1fbe3273393b892187393a",
+    "native": true,
+    "transform_applied_to_geometry": false,
+    "body_or_fusion": false,
+    "target_video": "004",
+    "support_ids": [
+      "G03_v004_raw00242",
+      "G03_v004_raw00190",
+      "G03_v004_raw00324"
+    ],
+    "support_videos": [
+      "004",
+      "004",
+      "004"
+    ],
+    "statistical_independence_claimed": false
+  },
+  {
+    "source_id": "G03_v004_raw00552",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "hero_fit/G03_v004_raw00552/RAW_NATIVE_MESH.npz",
+    "sha256": "52173211c52e41f95f21ebdad588d9cff7478764f5355c110dbf58e96e91f98d",
+    "native": true,
+    "transform_applied_to_geometry": false,
+    "body_or_fusion": false,
+    "target_video": "004",
+    "support_ids": [
+      "G03_v004_raw00567",
+      "G03_v004_raw00582",
+      "G03_v004_raw00528"
+    ],
+    "support_videos": [
+      "004",
+      "004",
+      "004"
+    ],
+    "statistical_independence_claimed": false
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "mvs_root": "/path/to/official/mvsanywhere",
+  "dino_root": "/path/to/official/dinov2",
+  "checkpoint": "/path/to/official/mvsanywhere_hero.ckpt"
+}

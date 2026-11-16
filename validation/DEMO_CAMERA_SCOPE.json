@@ -1,0 +1,37 @@
+[
+  {
+    "id": "G01_v004_raw00341",
+    "frozen_qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "original_candidate": "originalRF5DoF_RGB_yaw",
+    "selected_historical_Ceres_modes": [],
+    "final_vs_original_initial_max_abs": 0.0,
+    "camera_demo_recomputes_this_frame": true
+  },
+  {
+    "id": "G01_v004_raw00326",
+    "frozen_qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "original_candidate": "REAL_RGB_PNP_LM",
+    "selected_historical_Ceres_modes": [
+      "SHARED_SE3",
+      "JOINT_FULL6"
+    ],
+    "final_vs_original_initial_max_abs": 0.14393199341606078,
+    "camera_demo_recomputes_this_frame": false
+  },
+  {
+    "id": "G01_v004_raw00360",
+    "frozen_qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "original_candidate": "REAL_RGB_PNP_LM",
+    "selected_historical_Ceres_modes": [],
+    "final_vs_original_initial_max_abs": 0.0,
+    "camera_demo_recomputes_this_frame": false
+  },
+  {
+    "id": "G01_v004_raw00204",
+    "frozen_qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "original_candidate": "originalRF5DoF_RGB_yaw",
+    "selected_historical_Ceres_modes": [],
+    "final_vs_original_initial_max_abs": 0.0,
+    "camera_demo_recomputes_this_frame": false
+  }
+]

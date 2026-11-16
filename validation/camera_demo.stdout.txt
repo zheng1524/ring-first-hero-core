@@ -1,0 +1,1 @@
+{"status": "NUMERIC_RGB_REGISTERED_CONDITIONAL", "source": "originalRF5DoF_RGB_yaw", "seconds": 0.661008358001709}

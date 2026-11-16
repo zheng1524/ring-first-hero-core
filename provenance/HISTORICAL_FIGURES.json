@@ -1,0 +1,32 @@
+[
+  {
+    "path": "visualization/assets/history/Fig1_All_Candidate_Directions.png",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "experiments/TASK-E4-RING-FIRST-MAX-COVERAGE-VIEWS-001/figures/Fig1_All_Candidate_Directions.png",
+    "sha256": "e56ee6f922ef11a6b8bbe59634e15d970267839ada6fd403106fec21ffd9abfe"
+  },
+  {
+    "path": "visualization/assets/history/Fig4_Actual_HERO_Surface_Sets.png",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "experiments/TASK-E4-RING-FIRST-MAX-COVERAGE-VIEWS-001/figures/Fig4_Actual_HERO_Surface_Sets.png",
+    "sha256": "59c3facf4fe925910716e8c9b0ee2cc3ef018b44f1c0fdcdd47075ecd501957f"
+  },
+  {
+    "path": "visualization/assets/history/Fig7_Cross_Source_Metric_Worlds.png",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "experiments/TASK-E4-RING-FIRST-MAX-COVERAGE-VIEWS-001/figures/Fig7_Cross_Source_Metric_Worlds.png",
+    "sha256": "b55770315c374495290b9d6c76cde750795857b88b1aa2d6f586b04d7f71bbe7"
+  },
+  {
+    "path": "visualization/assets/history/G01_Six_View_Atlas.png",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "experiments/TASK-E4-RING-FIRST-MAX-COVERAGE-VIEWS-001/figures/G01_Six_View_Atlas.png",
+    "sha256": "8182a4e1b7a65dc5dae3ee39970c222a6d1e7553e154311cbc36c116d5ce30f5"
+  },
+  {
+    "path": "visualization/assets/history/G03_Six_View_Atlas.png",
+    "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+    "source_path": "experiments/TASK-E4-RING-FIRST-MAX-COVERAGE-VIEWS-001/figures/G03_Six_View_Atlas.png",
+    "sha256": "0b1fd6b0742e8370b93d18ab03e315046db8b16efdcfb9efe277cbdc3ca6f438"
+  }
+]

@@ -1,0 +1,17 @@
+Obtaining file:///home/liu/ring-first-hero-core
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: ring-first-hero-core
+  Building editable for ring-first-hero-core (pyproject.toml): started
+  Building editable for ring-first-hero-core (pyproject.toml): finished with status 'done'
+  Created wheel for ring-first-hero-core: filename=ring_first_hero_core-0.1.0-0.editable-py3-none-any.whl size=2544 sha256=c6bb01fff324b348aa2f3cba7bb5a5406201bea45c7e3f2c268d0a49be65c6dc
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ew2dfwm8/wheels/c5/a3/b1/255929aab864dceb889b12fa755eb9cd59ae5dab3bc2828a6d
+Successfully built ring-first-hero-core
+Installing collected packages: ring-first-hero-core
+  Attempting uninstall: ring-first-hero-core
+    Found existing installation: ring-first-hero-core 0.1.0
+    Uninstalling ring-first-hero-core-0.1.0:
+      Successfully uninstalled ring-first-hero-core-0.1.0
+Successfully installed ring-first-hero-core-0.1.0

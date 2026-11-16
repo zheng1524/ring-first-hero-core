@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/nianticlabs/mvsanywhere",
+  "original_claimed_commit": "4483e25ede3eee1b6eaf96254d2544152f935c0d",
+  "original_claim_verified": false,
+  "official_API_result": "422 No commit found for SHA",
+  "actual_claim_origin": "local polyp_research parent Git repository; vendor directory was not a Git checkout",
+  "verified_upstream_commit": "5bd49bba0992aa56060e1aa3bb40b2150b04726f",
+  "matched_source_files": 105,
+  "source_difference_files": [],
+  "verification": "All 105 used Python/config files have identical Git blob IDs and SHA256 to pinned upstream; no algorithm or weight replacement",
+  "manifest": "provenance/upstream/SOURCE_COMPARISON.json"
+}

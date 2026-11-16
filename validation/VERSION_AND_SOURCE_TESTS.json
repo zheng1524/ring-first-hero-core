@@ -1,0 +1,11 @@
+{
+  "three_requested_project_SHA_matches": true,
+  "HERO_checkpoint_SHA_matches": true,
+  "MVS_original_claimed_commit_verified": false,
+  "MVS_actual_content_verified": true,
+  "MVS_verified_files": 105,
+  "DINO_verified_files": 156,
+  "runtime_source_hashes_match": true,
+  "registry_status": "MISSING; no invented T14-T20",
+  "original_algorithm_thresholds_changed": false
+}

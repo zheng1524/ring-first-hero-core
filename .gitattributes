@@ -1,0 +1,5 @@
+# Preserve exact original licence/source bytes; upstream whitespace is not edited.
+LICENSES/MVSAnywhere.txt -whitespace
+provenance/frozen_sources/* -whitespace
+# Raw external-tool stdout is retained as captured, including upstream spacing.
+validation/*.stdout.txt -whitespace

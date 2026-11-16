@@ -1,0 +1,62 @@
+{
+  "checked_original_inputs": [
+    {
+      "file": "MAX-COVERAGE/code/cameras.py",
+      "sha256": "ba95a389fc6722841491c3f876906e0014262c8baa055637a648bc66378db95f",
+      "unchanged": true
+    },
+    {
+      "file": "MAX-COVERAGE/code/torus.py",
+      "sha256": "904d9cae48c1cc9317454c2feb80a331908009e095683851c8e8e3c80625191d",
+      "unchanged": true
+    },
+    {
+      "file": "MAX-COVERAGE/code/infer.py",
+      "sha256": "c48926cb8ede2792a903436c6478f4fd44f00a8e261c9408521165db738c7049",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00341.png",
+      "sha256": "b43022591833f5bf249f9535dde0d6fb39dcc7779dbbab606b684944bb3e964e",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00341_labels.png",
+      "sha256": "e6e908004efb73508ab72e1915e21a095912e3274c469acab1413d608cc946f0",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00326.png",
+      "sha256": "d345563437c943718e130a56c30dd57c592453742dd386e336aed5ddaefa29a3",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00326_labels.png",
+      "sha256": "4806123e57b32f81744c6e220fc4b2767ca24f2afe283115a83b58b6b503ddb0",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00360.png",
+      "sha256": "356660d2531995b03d95525e8a96adf913aec69070ca405e29e0790102f9062e",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00360_labels.png",
+      "sha256": "ea57cea3b1f9702b9e67e85cad8d6ed4bfcfdd12f16b8aca86e9c96dfcf0726e",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00204.png",
+      "sha256": "ad314909026a6748a24fc9ebcff2185a62f6aabbbef0474c326d081abe4b8cc8",
+      "unchanged": true
+    },
+    {
+      "file": "G01_v004_raw00204_labels.png",
+      "sha256": "cc7a13c8412938c1667fccfb4e21036c1ab3828ecf9482074ed526c18e9fc389",
+      "unchanged": true
+    }
+  ],
+  "checkpoint_SHA256_unchanged": true,
+  "operations_on_old_repositories": "read-only Git/blob/file reads; no add/commit/fetch/checkout/cleanup/write commands",
+  "scope": "Core and demo source files hashed; no claim that all unrelated old worktrees were exhaustively inventoried"
+}

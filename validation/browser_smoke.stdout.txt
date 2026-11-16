@@ -1,0 +1,1 @@
+{'HTTP_internal_resources': 29, 'browser_exit_code': 0, 'GLB_loaded': True, 'canvas_present': True, 'source_checkbox_present': True, 'G03_GLB_loaded': True, 'G03_source_checkboxes': 2, 'network_required_for_gallery': False, 'screenshot_exists': True}

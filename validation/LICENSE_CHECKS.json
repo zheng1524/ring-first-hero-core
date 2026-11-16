@@ -1,0 +1,8 @@
+{
+  "MVS_license_matches_upstream_blob": true,
+  "official_blob": "d1cebdc2e59808d5fd299164c44ce65f002a0401",
+  "local_SHA256": "7c22aa1e7a4c488cfbac0f13446939e60bd4e01eecf29bcd4e74622c2ab7dbe2",
+  "Three_license": "MIT; exact pinned licence retained",
+  "full_MVS_DINO_source_redistributed": false,
+  "checkpoint_redistributed": false
+}

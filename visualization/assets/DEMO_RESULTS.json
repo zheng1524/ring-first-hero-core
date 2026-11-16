@@ -1,0 +1,40 @@
+{
+  "example_id": "G01_v004_raw00341",
+  "inference": {
+    "inference_executed": true,
+    "reused_historical_depth": false,
+    "optimizer_steps": 0,
+    "native_shape": [
+      352,
+      640
+    ],
+    "depth_interpolation": 0,
+    "unit": "mm",
+    "depth_definition": "axialZ",
+    "native_pixels": 22733,
+    "raw_faces": 43746,
+    "seconds": 1.181333303451538,
+    "peak_GPU_bytes": 1508467712
+  },
+  "comparison": {
+    "N_pixels": 225280,
+    "N_common_finite": 225280,
+    "depth_bitwise_equal": true,
+    "depth_MAE_mm": 0.0,
+    "depth_p95_mm": 0.0,
+    "depth_max_mm": 0.0,
+    "native_K_max_abs": 0.0,
+    "c2w_max_abs": 0.0,
+    "raw_faces_equal": true,
+    "raw_pixel_ids_equal": true,
+    "raw_vertex_max_mm": 0.0,
+    "validity": "historical-output reproducibility; not geometric truth",
+    "GT": "NOT_EVALUABLE",
+    "within_preregistered_tolerance": true,
+    "cleaning_state_equal": true,
+    "cleaning_reason_bits_equal": true
+  },
+  "GLB_unit": "m",
+  "PLY_and_NPZ_unit": "mm",
+  "GLB_scale_from_mm": 0.001
+}

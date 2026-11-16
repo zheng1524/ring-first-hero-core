@@ -1,0 +1,15 @@
+{
+  "source_commit": "5636aaebd61a3d53b69f528692c4c7095df46508",
+  "target_id": "G01_v004_raw00341",
+  "support_ids": [
+    "G01_v004_raw00326",
+    "G01_v004_raw00360",
+    "G01_v004_raw00204"
+  ],
+  "selection": "first frozen G01 GEOMETRIC3 plan; no result-based selection",
+  "RGB_source_files_verified": true,
+  "cache_array_identity_verified": true,
+  "source_ring_sha256": "30bd84488045adada6155fe00df2154ecde3a8e4531f02494fada77637c3b4af",
+  "reference_map_original_sha256": "1839a9fc8f948b798dd90853bc8567702797e07ef257c24089980dbce52b8f1a",
+  "raw_data_uploaded": false
+}

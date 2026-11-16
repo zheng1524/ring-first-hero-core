@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ring-first-hero-core"
+version = "0.1.0"
+description = "Ring-anchored metric cameras and native MVSAnywhere HERO visible surfaces"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "opencv-python-headless", "Pillow", "trimesh", "matplotlib"]
+
+[project.optional-dependencies]
+hero = ["torch", "torchvision", "lightning==2.2.5", "kornia==0.6.7", "antialiased-cnns==0.3", "timm", "efficientnet-pytorch", "simple-parsing", "einops", "loguru"]
+test = ["pytest"]
+clean = ["open3d==0.19.0"]
+
+[project.scripts]
+ring-first-hero = "ring_first_hero.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ring_first_hero = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

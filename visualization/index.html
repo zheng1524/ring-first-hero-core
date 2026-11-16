@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ring-First + HERO · research core</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">REPRODUCIBLE RESEARCH MODULES · v0.1</p><h1>Ring-First cameras.<br>Native HERO surfaces.</h1>
+  <p>Real G01 inputs, fixed R10 CAD and conditional metric cameras. One newly executed official HERO inference, followed by original native-grid triangulation. No Body model, fusion, hole filling or learned camera correction.</p>
+  <nav><a href="#pipeline">Core figures</a><a href="#viewer-section">Layered 3D</a><a href="#history">Frozen context</a><a href="https://github.com/zheng1524/ring-first-hero-core#readme">Repository guide</a></nav></header>
+  <section class="summary" id="results"><div><strong>1 + 3</strong><span>target + real support images</span></div><div><strong>mm</strong><span>axial depth and PLY/NPZ geometry</span></div><div><strong id="comparison">Loading results…</strong><span>new inference vs frozen native depth</span></div></section>
+  <section id="pipeline"><h2>From observed pixels to an open surface</h2><p>All images below are generated from actual project inputs and actual network outputs. Surface continuity, smoothness and apparent closure do not establish geometric truth.</p>
+    <figure><a href="assets/01_RGB_Mask_CAD_Projection.png"><img src="assets/01_RGB_Mask_CAD_Projection.png" alt="Real RGB, original labels and fixed R10 CAD projection"></a><figcaption>01 · Real RGB and original Polyp/Ring Mask. Orange CAD boundaries are predictions; Polyp-adjacent unknown boundaries do not certify missing Ring material.</figcaption></figure>
+    <div class="grid"><figure><a href="assets/02_Cameras_And_Ring.png"><img src="assets/02_Cameras_And_Ring.png" alt="Four real camera poses and Ring"></a><figcaption>02 · Actual camera positions and forward axes, in the same Ring coordinate system.</figcaption></figure><figure><a href="assets/03_Native_Depth_mm.png"><img src="assets/03_Native_Depth_mm.png" alt="Native axial depth with millimetre colorbars"></a><figcaption>03 · Native 352 × 640 axial Z. The depth array is never resized.</figcaption></figure></div>
+    <figure><a href="assets/04_RGB_Depth_Raw_Mesh_Correspondence.png"><img src="assets/04_RGB_Depth_Raw_Mesh_Correspondence.png" alt="Actual source pixels, depth samples and original Raw triangles"></a><figcaption>04 · Identical native Pixel IDs link RGB, depth and original Raw vertices. <a href="assets/PIXEL_XYZ_CORRESPONDENCES.json">Actual coordinates</a>.</figcaption></figure>
+    <div class="grid"><figure><a href="assets/05_Raw_Mesh_Six_Views.png"><img src="assets/05_Raw_Mesh_Six_Views.png" alt="Same actual Raw open Mesh from six directions"></a><figcaption>05 · Fixed geometry and bounds, six viewpoints. Black is the independent known Ring CAD.</figcaption></figure><figure><a href="assets/06_Optional_Cleaning.png"><img src="assets/06_Optional_Cleaning.png" alt="Raw, original017 classifications and Trusted subset"></a><figcaption>06 · Optional unchanged017 classification. Green: Trusted; yellow: Uncertain; red: Rejected; grey: Unknown. Raw is retained.</figcaption></figure></div>
+  </section>
+  <section id="viewer-section"><h2>Inspect the actual geometry</h2><p>Drag to orbit; scroll to zoom. Sources remain separate objects. G03 is a frozen same-video reference example, not a new reconstruction or a fused surface. GLB positions follow the glTF metre convention; the viewer reports dimensions in millimetres.</p>
+    <div class="toolbar"><label>Scene <select id="scene-choice"><option value="G01_core">G01 · freshly reproduced source</option><option value="G03_native_sources">G03 · two frozen native sources</option></select></label><label>Surface <select id="surface-choice"><option value="RAW">Raw</option><option value="TRUSTED">Trusted where available</option></select></label><label><input id="ring-toggle" type="checkbox" checked> Ring CAD</label><label><input id="camera-toggle" type="checkbox"> Cameras</label><button id="reset">Reset view</button><a id="download" href="assets/scenes/G01_core.glb">Download GLB</a></div>
+    <div class="viewer-layout"><div id="viewer" aria-label="Actual Mesh 3D viewport"></div><aside><h3>Independent sources</h3><div id="sources"></div><p id="scale"></p><p class="quiet">Original vertex coordinates are preserved in NPZ/PLY. GLB applies exactly one mm → m conversion. No ICP or scale fitting.</p></aside></div>
+    <p id="viewer-status" data-load-status="loading">Loading Three.js 0.169.0…</p>
+    <p class="quiet">Separate source objects are not statistically independent evidence: their upstream RGB support images can overlap. The source manifest preserves those identities.</p>
+    <figure><a href="assets/07_G03_Raw_Source_Limitations.png"><img src="assets/07_G03_Raw_Source_Limitations.png" alt="Two actual frozen G03 Raw sources and their independent overlay"></a><figcaption>07 · Difficult G03 example: source disagreement and insufficient independent viewing directions remain. An overlap is not automatically a physical conflict; visibility and uncertainty must still be respected.</figcaption></figure>
+  </section>
+  <section id="history"><h2>Unchanged historical originals</h2><p>These five original figures were read from scientific snapshot <code>5636aaeb…</code>, visually inspected, and copied without editing. They document previous multi-source context and limitations; no historical overlap is relabelled as a newly fused or accurate surface. <a href="assets/HISTORICAL_FIGURES.json">Source identities and SHA256</a>.</p>
+    <div class="grid history">
+      <figure><a href="assets/history/Fig1_All_Candidate_Directions.png"><img loading="lazy" src="assets/history/Fig1_All_Candidate_Directions.png" alt="Original all-candidate viewing directions"></a><figcaption>Original · All recovered candidate directions. Conditional candidates are not independent pose GT.</figcaption></figure>
+      <figure><a href="assets/history/Fig4_Actual_HERO_Surface_Sets.png"><img loading="lazy" src="assets/history/Fig4_Actual_HERO_Surface_Sets.png" alt="Original actual native HERO surface sets"></a><figcaption>Original · Actual native Trusted subsets, without surface fusion.</figcaption></figure>
+      <figure><a href="assets/history/Fig7_Cross_Source_Metric_Worlds.png"><img loading="lazy" src="assets/history/Fig7_Cross_Source_Metric_Worlds.png" alt="Original cross-source metric worlds"></a><figcaption>Original · Shared conditional metric worlds and actual registered cameras.</figcaption></figure>
+      <figure><a href="assets/history/G01_Six_View_Atlas.png"><img loading="lazy" src="assets/history/G01_Six_View_Atlas.png" alt="Original G01 six-view atlas"></a><figcaption>Original · G01 source-coloured Raw native atlas.</figcaption></figure>
+      <figure><a href="assets/history/G03_Six_View_Atlas.png"><img loading="lazy" src="assets/history/G03_Six_View_Atlas.png" alt="Original G03 six-view atlas with unresolved layers"></a><figcaption>Original · G03 layers and elongated structures remain visible.</figcaption></figure>
+    </div>
+  </section>
+  <footer>Research collaboration · absolute geometric accuracy NOT_EVALUABLE · official weights and private input data are not redistributed · run this page through localhost HTTP.</footer>
+</main>
+<script>fetch('assets/DEMO_RESULTS.json').then(r=>r.json()).then(d=>{document.querySelector('#comparison').textContent=d.comparison.depth_bitwise_equal?'Bitwise identical':d.comparison.depth_MAE_mm.toFixed(6)+' mm MAE';}).catch(()=>{document.querySelector('#comparison').textContent='See saved validation JSON';});setTimeout(()=>{const e=document.querySelector('#viewer-status');if(e.dataset.loadStatus==='loading')e.textContent='3D is still loading. Check that the pinned local Three.js runtime files are present; static images remain available.';},12000);</script>
+<script type="module" src="viewer.js"></script>
+</body></html>

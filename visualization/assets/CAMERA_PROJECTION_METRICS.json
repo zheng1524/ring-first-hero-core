@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "G01_v004_raw00341",
+    "qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "Ring_IoU": 0.8899239044870113,
+    "contour_N": 128,
+    "contour_median_px": 0.7877456340769756,
+    "contour_p95_px": 1.435972924073088,
+    "evaluation_pixels": "640x360 index centres; Polyp-adjacent boundary unknown; no GT"
+  },
+  {
+    "source_id": "G01_v004_raw00326",
+    "qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "Ring_IoU": 0.8429332042594385,
+    "contour_N": 128,
+    "contour_median_px": 2.0132809528586417,
+    "contour_p95_px": 4.991780696046069,
+    "evaluation_pixels": "640x360 index centres; Polyp-adjacent boundary unknown; no GT"
+  },
+  {
+    "source_id": "G01_v004_raw00360",
+    "qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "Ring_IoU": 0.8562229102167183,
+    "contour_N": 128,
+    "contour_median_px": 1.8390069091721863,
+    "contour_p95_px": 4.279616319558434,
+    "evaluation_pixels": "640x360 index centres; Polyp-adjacent boundary unknown; no GT"
+  },
+  {
+    "source_id": "G01_v004_raw00204",
+    "qualification": "METRIC_POSE_VALIDATED_CONDITIONAL",
+    "Ring_IoU": 0.8532449317863062,
+    "contour_N": 128,
+    "contour_median_px": 1.0130161975145542,
+    "contour_p95_px": 2.461254897728402,
+    "evaluation_pixels": "640x360 index centres; Polyp-adjacent boundary unknown; no GT"
+  }
+]

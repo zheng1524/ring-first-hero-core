@@ -1,0 +1,12 @@
+usage: __main__.py [-h] {camera_demo,hero_demo,visualize} ...
+
+Ring-First metric cameras and official HERO native surfaces
+
+positional arguments:
+  {camera_demo,hero_demo,visualize}
+    camera_demo         Actual Ring5DoF + real-map SIFT/PnP + yaw recovery
+    hero_demo           New official HERO inference with fixed cameras
+    visualize           Render actual saved native outputs; no inference
+
+options:
+  -h, --help            show this help message and exit
